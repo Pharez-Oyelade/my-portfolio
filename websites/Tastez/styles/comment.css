@@ -1,0 +1,45 @@
+.comment-wrapper {
+    background-color: #141429;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.comment-wrapper > .section-cmt {
+    display: grid;
+    align-items: center;
+    margin: 5px;
+}
+
+.comment-wrapper > .section-cmt > .quot {
+    text-align: center;
+    font-size: 20px;
+}
+
+.comment-wrapper > .section-cmt > .cmt {
+    text-align: center;
+    color: white;
+    width: 500px;
+}
+
+.comment-wrapper > .section-cmt > .cmt-name {
+    text-align: center;
+    color: #cea135;
+    padding-top: 15px;
+}
+
+.comment-wrapper > .section-cmt > .cmt-pst {
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.comment-wrapper > .section-cmt > .quot i{
+    color: #cea135;
+}
+
+.comment-wrapper > .section-cmt-img img{
+    /* width: 500px; */
+    height: 500px;
+}

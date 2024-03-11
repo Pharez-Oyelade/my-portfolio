@@ -1,0 +1,49 @@
+.section-abt-wrapper {
+    background-color: #090916;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 1);
+    /* padding-bottom: 50px; */
+}
+
+.section-abt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #090916; */
+    margin-top: 5px;
+    color: #cea135;
+    padding: 10px 32px;
+}
+
+.section-abt > .abt-txt1 {
+    font-family: 'Dancing Script', cursive;
+    padding-top: 80px;
+    font-size: 15px;
+}
+
+.section-abt > .abt-txt2 {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.section-abt > .abt-txt3 {
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.abt-img{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 5em;
+   align-items: center;
+   margin-top: 55px;
+   padding-bottom: 100px;
+}
+
+.abt-img img {
+    width: 500px;
+}

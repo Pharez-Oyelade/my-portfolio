@@ -1,0 +1,90 @@
+@media (max-width: 640px) {
+    .nav-wrapper {
+        flex-direction: column;
+        position: initial;
+        width: clamp(50px, 100%, 526px);
+        background-color: transparent;
+    }
+
+    .nav-wrapper .nav-logo {
+        padding-top: 10px;
+    }
+
+    .nav-wrapper .nav-link-wrapper {
+        width: clamp(400px, 50%, 600px);
+        padding: 20px 0 0;
+    }
+
+   .hero-header .hero-txt-wrapper {
+    gap: 10px;
+    width: clamp(100px, 75%, 584px);
+    margin: auto;
+   }
+
+   .about-wrapper {
+    flex-direction: column;
+   }
+
+   .about-wrapper .about-text-wrapper {
+    width: 80%;
+    margin: auto;
+   }
+
+   .about-wrapper .about-detail-wrapper {
+    width: 80%;
+    margin: auto;
+   }
+
+   .speaker-wrapper .speaker-header {
+    /* width: 100%;
+    margin: auto; */
+    text-align: center;
+   }
+
+   
+
+   .speaker-wrapper .speaker-image {
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+
+   .speaker-wrapper .speaker-image .speaker-box {
+    width: clamp(100px, 50%, 500px);
+   }
+}
+
+.upcoming-wrapper .event-card-wrapper {
+    grid-template-columns: 1fr;
+}
+
+.ticket-wrapper {
+    flex-wrap: wrap;
+}
+
+.ticket-wrapper .silver-ticket-wrapper {
+    width: 75%;
+    margin: 25px auto;
+}
+
+.ticket-wrapper2 {
+    flex-wrap: wrap;
+}
+
+.ticket-wrapper2 .silver-ticket-wrapper {
+    width: 75%;
+    margin: 25px auto;
+}
+
+.ticket-wrapper .ticket-button button {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.ticket-wrapper .ticket-button button {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.footer-info-wrapper {
+    flex-wrap: wrap;
+}

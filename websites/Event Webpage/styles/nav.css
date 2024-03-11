@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+.hero-header {
+    background-image: url(../images/headway-F2KRf_QfCqw-unsplash.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* opacity: ; */
+}
+
+.nav-wrapper .nav-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    /* gap: 25px; */
+}
+
+.nav-wrapper .nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.nav-wrapper .nav-link-wrapper a:hover {
+    color: red;
+}
+
+.nav-wrapper .nav-select {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.nav-wrapper .nav-select i{
+    font-size: 12px;
+}
+
+.nav-wrapper .nav-select p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.hero-header .hero-txt-wrapper {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 150px 100px;
+}
+
+.hero-header .hero-txt-wrapper .txt1 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+.hero-header .hero-txt-wrapper .txt2 {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.hero-header .hero-txt-wrapper .txt3-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-header .hero-txt-wrapper .txt3-wrapper .txt-3 {
+    font-family: sans-serif;
+}
+
+.hero-header .hero-txt-wrapper .txt3-wrapper .txt-3 i{
+    padding-right: 5px;
+}
+
+.hero-header .hero-txt-wrapper button{
+    margin: 10px 0;
+    padding: 10px 10px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1.5px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.hero-header .hero-txt-wrapper button:hover {
+    background-color: red;
+    border: 1.5px solid red;
+    color: #000000;
+}
+
+.hero-header {
+    padding-bottom: 100px;
+}

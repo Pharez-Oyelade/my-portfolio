@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food order Website</title>
+
+    <!-- local styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./styles/media-queries/md-media.css" />
+    <link rel="stylesheet" href="styles/media-queries/sm-media.css" />
+
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Englebert&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- slider  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- font-awesome icon  -->
+    <script src="https://kit.fontawesome.com/4e52035f67.js"></script>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img src="images/logo.png" alt="logo" class="logo" width="50px"
+      /></a>
+
+      <!-- <div>
+            <ul id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Get Menu</a></li>
+                <li><a href="#">Multipage</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+                <a href="#"><img src="images/logo.png" alt="logo" class="logo" width="50px"></a>
+            </ul>
+        </div>
+        <i id="bar" class="fas fa-outdent"></i> -->
+      <!-- <i class="fa-solid fa-burger" id="bar"></i> -->
+      <div>
+        <ul id="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <a href="#" id="close"><i class="fa-solid fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <button class="header">Get Menu</button>
+        <!-- <i id="bar" class="fas fa-outdent"></i> -->
+        <i id="bar" class="fa-solid fa-burger"></i>
+      </div>
+
+      <button class="header">Get Menu</button>
+    </section>
+
+    <section id="hero">
+      <h4>Savor the <span>flavor</span></h4>
+      <h2>Delivered to Your Doorstep</h2>
+      <p>
+        Indulge in a culinary journey with our diverse menu, crafted for food
+        enthusiasts who crave convenience without compromising on taste
+      </p>
+      <div class="button">
+        <button class="normal">Read more</button>
+        <button
+          class="normal"
+          style="background-color: #3cda3c; margin: 0 20px"
+        >
+          View plans
+        </button>
+      </div>
+    </section>
+
+    <section id="feature">
+      <div class="feature-box">
+        <i class="fa-solid fa-truck"></i>
+        <div class="feature-txt">
+          <h6>Swift delivery</h6>
+          <p>Your cravings, met in minutes, not hours</p>
+        </div>
+      </div>
+      <div class="feature-box feature2">
+        <i class="fa-solid fa-money-bill" style="color: #fff"></i>
+        <div class="feature-txt">
+          <h6 style="color: #fff">Reliable Service</h6>
+          <p>Trust us to bring your favorites, reliably</p>
+        </div>
+      </div>
+      <div class="feature-box feature3">
+        <i class="fa-solid fa-calculator" style="color: #fff"></i>
+        <div class="feature-txt" style="color: #fff">
+          <h6>Diverse Menu</h6>
+          <p>A feast for every palate, endless choices.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="description">
+      <div class="des-img">
+        <img src="images/img2.jpg" alt="description" />
+      </div>
+      <div class="des-txt-wrapper">
+        <div class="des-txt">
+          <h4>Nourish Your Body <span>Savor the Difference</span></h4>
+          <p>
+            Embark on a culinary adventure with our delectable dishes, where
+            every bite tells a story of flavor and freshness. Because
+            exceptional taste deserves an extraordinary journey.
+          </p>
+        </div>
+        <div class="des-time">
+          <i class="fa-regular fa-clock" style="color: #3cda3c"></i>
+          <p>Every Day from <span>08am to 10pm</span></p>
+        </div>
+        <div class="des-time">
+          <i class="fa-solid fa-phone" style="color: #3cda3c"></i>
+          <p>+025 231 841 2765</p>
+        </div>
+        <div class="des-btn">
+          <button class="normal">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="details">
+      <div class="det">
+        <img src="images/detail/diet (1).png" alt="Only natural food" />
+        <h6>Natural food</h6>
+        <p>Fresh ingredients for a healthier, tastier experience.</p>
+      </div>
+      <div class="det">
+        <img src="images/detail/eco-food.png" alt="" />
+        <h6>Various dishes</h6>
+        <p>Explore a world of culinary delights, endless variety</p>
+      </div>
+      <div class="det">
+        <img src="images/detail/coffee-bag.png" alt="Only natural food" />
+        <h6>Handy Packaging</h6>
+        <p>Your meals, neatly packed for convenience and freshness</p>
+      </div>
+      <div class="det">
+        <img src="images/detail/salad.png" alt="Only natural food" />
+        <h6>Savor & Share</h6>
+        <p>Enjoy exclusive deals and share the joy</p>
+      </div>
+    </section>
+
+    <section id="description2">
+      <div class="des-img">
+        <img src="images/food/dish_01-1.jpg" alt="description" />
+        <!-- <img src="images/food/organic_dish__v_2da77693-5ab3-4036-8eba-ac20465e0dab-removebg-preview.png" alt=""> -->
+      </div>
+      <div class="des-txt-wrapper">
+        <div class="des-txt">
+          <h4>Eggs with Bacon and Salad</h4>
+          <p>
+            Indulge in the perfect breakfast harmony -- farm-fresh eggs cooked
+            to perfection, crisp bacon for a savory crunch, and a vibrant salad
+            medley that adds a refreshing twist. This dish is a symphony of
+            flavors...
+          </p>
+        </div>
+        <div class="des-time">
+          <p><b>Energy: </b> <span style="color: red">350 kcal</span></p>
+        </div>
+        <div class="des-time">
+          <p><b>Protein: </b> <span>25 g</span></p>
+        </div>
+        <div class="des-time">
+          <p><b>Fat: </b> <span>15 g</span></p>
+        </div>
+        <div class="des-time">
+          <p><b>Carbohydrate: </b> <span>10 g</span></p>
+        </div>
+        <div class="des-btn">
+          <button class="normal" style="padding: 15px 70px">Order</button>
+          <button class="normal" style="background-color: #3cda3c">
+            Read More
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="description2">
+      <div class="des-txt-wrapper des-order">
+        <div class="des-txt">
+          <h4>Salmon with Vegetables</h4>
+          <p>
+            Immerse yourself in a culinary masterpiece featuring premium salmon,
+            expertly grilled to perfection. Paired with a colorful array of
+            crisps, garden-fresh vegetables, this dish is a celebration of taste
+            and health.
+          </p>
+        </div>
+        <div class="des-time">
+          <p><b>Energy: </b> <span style="color: red">350 kcal</span></p>
+        </div>
+        <div class="des-time">
+          <p><b>Protein: </b> <span>30 g</span></p>
+        </div>
+        <div class="des-time">
+          <p><b>Fat: </b> <span>10 g</span></p>
+        </div>
+        <div class="des-time">
+          <p><b>Carbohydrate: </b> <span>15 g</span></p>
+        </div>
+        <div class="des-btn">
+          <button class="normal" style="padding: 15px 70px">Order</button>
+          <a href="product.html"
+            ><button class="normal" style="background-color: #3cda3c">
+              Read More
+            </button></a
+          >
+        </div>
+      </div>
+      <div class="des-img">
+        <a href="product.html"
+          ><img src="images/food/dish_02-1.jpg" alt="description"
+        /></a>
+      </div>
+    </section>
+
+    <section id="popular">
+      <div class="menu-head">
+        <h4>Our menu</h4>
+        <h2>Popular Dishes</h2>
+      </div>
+      <div class="menu-txt">
+        <p>
+          Discover culinary excellence with our Popular Dishes. From the robust
+          flavors of steak and tender rabbit soup to the refreshing salads, each
+          dish is a gastronomic journey crafted for indulgence.
+        </p>
+      </div>
+    </section>
+
+    <section id="slider">
+      <div class="swiper sample-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swipe-img">
+              <img
+                src="images/food/dish_03-1-1024x1024.jpg"
+                alt="Salad with Mozarella"
+              />
+              <h4>Salad with Mozarella</h4>
+              <p>
+                Fresh greens adorned with creamy, delectable mozzarella bites
+              </p>
+              <span>$8.99</span>
+              <button class="header">Add to Cart</button>
+              <button class="clear">Read more</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swipe-img">
+              <img
+                src="images/food/dish_04-1-1024x1024.jpg"
+                alt="Salad with Mozarella"
+              />
+              <h4>Red Beetroot Soup</h4>
+              <p>Vibrant, velvety, and bursting with earthy goodness</p>
+              <span>$7.49</span>
+              <button class="header">Add to Cart</button>
+              <button class="clear">Read more</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swipe-img">
+              <img
+                src="images/food/dish_05-1-1024x1024.jpg"
+                alt="Salad with Mozarella"
+              />
+              <h4>Steaks with Asparagus</h4>
+              <p>Juicy steak paired with crisp, flavorful asparagus spears</p>
+              <span>$10.00</span>
+              <button class="header">Add to Cart</button>
+              <button class="clear">Read more</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swipe-img">
+              <img
+                src="images/food/dish_06-1-1024x1024.jpg"
+                alt="Salad with Mozarella"
+              />
+              <h4>Tender rabbit soup</h4>
+              <p>A comforting bowl with succulent rabbit and hearty broth</p>
+              <span>$6.49</span>
+              <button class="header">Add to Cart</button>
+              <button class="clear">Read more</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swipe-img">
+              <img
+                src="images/food/dish_07-1-1024x1024.jpg"
+                alt="Salad with Mozarella"
+              />
+              <h4>Chicken with Vegetables</h4>
+              <p>Savory chicken paired with garden-fresh, crisp vegetables</p>
+              <span>$12.99</span>
+              <button class="header">Add to Cart</button>
+              <button class="clear">Read more</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swipe-img">
+              <img
+                src="images/food/dish_08-1-1024x1024.jpg"
+                alt="Salad with Mozarella"
+              />
+              <h4>Grilled Chicken Breast</h4>
+              <p>Juicy perfection, seared and seasoned for exquisite taste</p>
+              <span>$9.49</span>
+              <button class="header">Add to Cart</button>
+              <button class="clear">Read more</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+      </div>
+    </section>
+
+    <section id="form">
+      <div class="form-wrapper">
+        <div class="form-header">
+          <h2><span>Free delivery</span> every day at your convenience</h2>
+          <p>
+            The Luxury of free daily delivery tailored to your schedule. Enter
+            your details, choose your menu plan and elevate your dining
+            experience effortlessly with a click. Your culinary journey awaits!
+          </p>
+        </div>
+
+        <form>
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="E-mail" required />
+          <input type="text" placeholder="Phone number" required />
+          <select name="Nutrition plan" id="" value="Nutrition plan">
+            <option>Nutrition plan</option>
+            <option>Slimming menu</option>
+            <option>Muscle gain menu</option>
+            <option>Balanced menu</option>
+          </select>
+          <input type="submit" value="Get Menu" class="input-btn" />
+        </form>
+      </div>
+      <div class="form-img">
+        <img src="images/form-bg.png" alt="" />
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="newsletter-header">
+        <h2><span>Subscribe</span> to our newsletter</h2>
+        <p>
+          Stay in the loop with exclusive offers and culinary updates. Subscribe
+          to our newsletter for a flavorful inbox experience. Join now!
+        </p>
+      </div>
+
+      <div class="newsletter-form">
+        <form>
+          <input type="email" placeholder="Your email ..." required />
+          <input type="submit" value="Subscribe" class="news-btn" />
+        </form>
+      </div>
+    </section>
+
+    <section id="popular" style="margin: 50px">
+      <div class="menu-head">
+        <h4>Testimonials</h4>
+        <h2 style="font-size: 30px" class="testimonial">
+          What our customers say
+        </h2>
+      </div>
+    </section>
+
+    <section id="slider">
+      <div class="slider slider-nav">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <i class="fa-solid fa-quote-left" style="color: #8ec137"></i>
+            <p>
+              Impressed with the freshness! The salmon was divine, and the
+              packaging is eco-friendly. Top-notch service, I'm a delighted
+              customer
+            </p>
+            <div class="slide-img">
+              <img src="images/people/pexels-ali-pazani-2787341.jpg" alt="" />
+              <p><b>Alice Bright</b></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <i class="fa-solid fa-quote-left" style="color: #8ec137"></i>
+            <p>
+              Absolutely love the meals! Gourment flavors at my doorstep. The
+              delivery is prompt and the variety keeps me excited. Five stars!
+            </p>
+            <div class="slide-img">
+              <img
+                src="images/people/pexels-hamed-gharaee-2117283.jpg"
+                alt=""
+              />
+              <p><b>Samson Paul</b></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <i class="fa-solid fa-quote-left" style="color: #8ec137"></i>
+            <p>
+              The rabbit soup was a delighful surprise! Elegant and comforting.
+              Fast delivery adds to the experience. Highly recommend this
+              culinary gem
+            </p>
+            <div class="slide-img">
+              <img src="images/people/pexels-pixabay-415829.jpg" alt="" />
+              <p><b>Fiona Willis</b></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <i class="fa-solid fa-quote-left" style="color: #8ec137"></i>
+            <p>
+              Grilled chicken was perfection! As a busy professional, reliable
+              delivery and delicious meals make life easier. A reliable go-to
+              for quality taste.
+            </p>
+            <div class="slide-img">
+              <img src="images/people/pexels-simon-robben-614810.jpg" alt="" />
+              <p><b>Caleb Wells</b></p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <i class="fa-solid fa-quote-left" style="color: #8ec137"></i>
+            <p>
+              Exceptional service. The steak exceeded expectations, and the
+              convenience of delivery makes every dinner special. A must try for
+              food enthusisats
+            </p>
+            <div class="slide-img">
+              <img
+                src="images/people/pexels-wilson-vitorino-2167673.jpg"
+                alt=""
+              />
+              <p><b>Rachael Huntley</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info">
+      <div class="info-details-wrapper">
+        <div class="info-details detail2">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Address:</h4>
+            <p>415 Lakelock Avenue, AB 37742</p>
+          </div>
+        </div>
+
+        <div class="info-details detail2">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h4>Phone:</h4>
+            <p>+234 813 774 2724</p>
+          </div>
+        </div>
+
+        <div class="info-details">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h4>Email:</h4>
+            <p>support@fooddeliver.ng</p>
+          </div>
+        </div>
+        <div class="contact-btn">
+          <button class="normal" style="margin-left: 10px">Contact us</button>
+        </div>
+      </div>
+
+      <div class="info-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62130353.83962569!2d20.08126559375001!3d18.1115164841353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1703079049707!5m2!1sen!2sng"
+          width="600"
+          height="448"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot-info">
+        <h2>Food Deli</h2>
+        <p>
+          Elevate your dining experience. Quality ingredients, swift delivery.
+          Join us in savory culinary excellence. Your satisfaction is our
+          commitment.
+        </p>
+        <div class="socials">
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+
+      <div class="foot-links">
+        <h1>Explore</h1>
+        <div class="links">
+          <div>
+            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#">Home</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#">Blog</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#">Product</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#">Clients</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-chevron-right"></i>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <h1>Contact info</h1>
+        <div class="info-location">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="info-det">
+            <h4>Our location:</h4>
+            <p>Anderlesent 45, 01623, Nigeria</p>
+          </div>
+        </div>
+        <div class="info-location">
+          <i class="fa-solid fa-phone"></i>
+          <div class="info-det">
+            <h4>Phones:</h4>
+            <p>+234 813 774 2724</p>
+            <p>+234 456 874 0987</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="float-btn">
+      <a href="../../index.html" class="float">Back</a>
+    </div>
+
+    <script src="path-to-the-script/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

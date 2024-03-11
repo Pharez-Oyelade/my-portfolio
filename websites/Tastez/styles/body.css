@@ -1,0 +1,396 @@
+
+
+.hero-header {
+    background-image: url(../images/background/pexels-cottonbro-studio-3298637.jpg);
+    padding: 300px 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 2em 2em 2em 2em;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #cea135;
+}
+
+.hero-header > .hero-aos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-header > .hero-aos > .txt1 {
+    font-family: 'Dancing Script', cursive;
+    align-self: center;
+    /* width: 500px; */
+    text-align: center;
+    font-size: 30px;
+}
+
+.hero-header > .hero-aos > .txt2 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+    align-self: center;
+    text-align: center;
+}
+
+.hero-header > .hero-aos > .txt3 {
+    color: #ffff;
+    font-size: 15px;
+    width: 500px;
+    /* font-weight: 100; */
+    align-self: center;
+    text-align: center;
+}
+
+.hero-header > .hero-aos > .txt-btn > .btn{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 2px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn:active {
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    align-self: center;
+    text-align: center;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.section-menu-wrapper {
+    background-color: #141429;
+}
+
+.section-menu-wrapper > .sec-menu-txt > .sec-menu-txt1 {
+    text-align: center;
+    color: #cea135;
+    padding-top: 100px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.section-menu-wrapper > .sec-menu-txt > .sec-menu-txt2 {
+    text-align: center;
+    color: #cea135;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.menu-list-wrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list > .menu-name-txt {
+    color: #cea135;
+    font-family: cursive;
+    font-size: 12px;
+    padding-left: 200px;
+}
+
+.menu-list > .menu-name-txt2 {
+    color: #cea135;
+    font-family: cursive;
+    font-size: 10px;
+    padding-right: 200px;
+}
+
+.menu-list-cnt {
+    color: #ffffff;
+    padding-left: 200px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.section-menu-wrapper > .menubtn {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 2px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+
+.section-menu-wrapper > .menubtn:active {
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.5);
+}
+
+.section-menu-wrapper > .menubtn {
+    align-self: center;
+    text-align: center;
+}
+
+.section-menu-wrapper > .menubtn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.section-tips-wrapper {
+    background-color: #090916;
+}
+
+ .tip-img {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5em;
+    align-items: center;
+    /* margin-top: 55px; */
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section-tips-wrapper > .tip-img img{
+    width: 500px;
+}
+
+.section-tips-wrapper > .tip-img > .timg2 {
+    width: 450px;
+}
+
+.tips-txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tips-txt-wrapper > .tips-txt1 {
+    color: #cea135;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+
+.tips-txt-wrapper > .tips-txt2 {
+    color: #cea135;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.tips-txt-wrapper > .tips-txt3 {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding: 0 32px;
+}
+
+.tips-txt-wrapper > .tipbtn {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: none;
+    border-bottom: 2px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.tips-txt-wrapper > .tipbtn:active {
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.5);
+}
+
+.tips-txt-wrapper > .tipbtn a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+video {
+    display: block;
+    width: 80%;
+    height: 500px;
+    /* padding-left: 200px; */
+    align-items: center;
+    margin: auto;
+}
+
+.offer-txt-wrapper > .offer-txt1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    color: #cea135;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.offer-txt-wrapper > .offer-txt2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #cea135;
+    text-align: center;
+}
+
+.offer-txt-wrapper > .offer-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: auto;
+}
+
+.offer-txt-wrapper > .offer-img > .offimg1 {
+    padding-left: 50px;
+}
+
+.offer-txt-wrapper > .offer-img > .offimg3 {
+    padding-right: 50px;
+}
+
+.offer-txt-wrapper > .offer-img img {
+    width: 200px;
+}
+
+.offer-txt-wrapper > .offer-img a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.reservation-wrapper {
+    background-color: #141429;
+}
+
+.reservation-wrapper > .reservation-txt > .res-txt1 {
+    text-align: center;
+    color: #cea135;
+    font-size: 15px;
+    padding-top: 100px;
+}
+
+.reservation-wrapper > .reservation-txt > .res-txt2 {
+    text-align: center;
+    color: #cea135;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.reservation-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.reservation-btn > .resbtn1 {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 5px;
+    border: 1px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 190px;
+}
+
+.reservation-btn > .resbtn2 {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 5px;
+    border: 1px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 190px;
+}
+
+.reservation-btn > .resbtn3 {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1em;
+   padding: 5px;
+    border: 1px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 190px;
+}
+
+.reservation-btn > .resbtn4 {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1em;
+    text-align: center;
+    padding: 2px 50px;
+    border: 2px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #090916;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img img{
+    width: 150px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-txt {
+    width: 380px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.footer-socials a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #cea135;
+    font-size: 12px;
+}

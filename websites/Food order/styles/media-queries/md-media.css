@@ -1,0 +1,309 @@
+@media (max-width: 820px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        right: -300px;
+        height: 100vh;
+        width: 100%;
+        max-width: 300px;
+        background-color: #fff;
+        color: #fff;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        margin: 0;
+        top: 10px;
+    }
+
+    #navbar ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #navbar li a {
+        margin-bottom: 25px;
+        background-color: transparent;
+        width: 100%;
+        padding-right: 600px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 20px;
+        right: 80px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #header button { 
+        display: none;
+    }
+
+    #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30%;
+        right: 30%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #hero .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hero .button button {
+        padding: 15px 20px;
+    }
+
+    #feature {
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+        align-items: center;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    #feature .feature-box {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 30px;
+        margin: 10px 0 10px 80px;
+        border-radius: 10px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    #feature .feature2 {
+        background-color: #8ec137;
+    }
+    
+    #feature .feature3 {
+        background-color: #0f0e0e;
+    }
+
+    #description {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* padding: 40px 80px; */
+        gap: 50px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #description .des-img img {
+        width: 100%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    
+    #description .des-txt-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+    }
+    
+    #description .des-txt-wrapper .des-txt {
+        margin: 20px 0;
+    }
+
+    #description .des-txt-wrapper .des-txt h4 {
+        padding-bottom: 20px;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #details {
+        flex-wrap: wrap;
+    }
+
+    #details .det {
+        width: 50%;
+    }
+
+    #details .det p {
+        line-height: 20px;
+    }
+
+    #description2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* padding: 40px 80px; */
+        gap: 50px;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #description2 .order .des-txt{
+        order: 1;
+    }
+
+    #description2 .des-img img {
+        width: 100%;
+        margin: auto;
+        border-radius: 10px;
+    }
+    
+    #description2 .des-txt-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+    }
+    
+    #description2 .des-txt-wrapper .des-txt {
+        margin: 20px 0;
+        width: 120%;
+    }
+
+    #description2 .des-txt-wrapper .des-txt h4 {
+        padding-bottom: 20px;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    #description2 .des-txt-wrapper .des-txt p {
+        font-size: 16px;
+        padding-bottom: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    #description2 .des-txt-wrapper .des-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       margin: auto;
+       width: 100%;
+       align-items: center;
+    }
+
+    .sample-slider .swiper-button-prev::after,
+    .sample-slider .swiper-button-next::after {
+        font-size: 20px;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 20px;
+        padding: 10px 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .sample-slider .swiper-button-prev,
+    .sample-slider .swiper-button-next {
+        top: initial;
+        bottom: -20px;
+        padding-bottom: 80px;
+    }
+
+    .sample-slider .swiper-button-prev {
+        left: 300px;
+    }
+
+    .sample-slider .swiper-button-next {
+        right: 300px;
+    }
+
+    #form {
+        flex-direction: column;
+    }
+
+    #form .form-wrapper {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    #form .form-wrapper form input {
+        font-size: 20px;
+    }
+
+    #form .form-wrapper .form-header h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #form .form-img img{
+        width: 100%;
+    }
+
+    #newsletter .newsletter-header p {
+        width: 75%;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    #newsletter .newsletter-form form{
+        width: 100%;
+    }
+
+    #newsletter .newsletter-form form input {
+        position: initial;
+    }
+
+    #newsletter .newsletter-form form input.news-btn {
+        margin-left: 20px;
+        position: initial;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #info .info-details-wrapper {
+        background-color: #fff;
+        width: 75%;
+        padding: 30px 15px;
+        border-radius: 20px 20px 0 0;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #info .info-map iframe {
+        width: 590px;
+        padding-left: 20px;
+    }
+
+    footer .foot-info {
+        width: 50%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,155 @@
+@media (max-width: 477px) {
+    #header {
+        padding: 10px 30px;
+    }
+
+    #hero {
+        padding: 0 40px;
+        background-position: 55%;
+    }
+
+    #hero p {
+        width: 100%;
+    }
+
+    #feature {
+       display: none;
+    }
+
+    #details {
+        flex-wrap: wrap;
+
+    }
+
+    #details .det {
+        width: 100%;
+    }
+
+    #description2 .des-txt-wrapper .des-txt {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .sample-slider .swiper-button-prev,
+    .sample-slider .swiper-button-next {
+        top: initial;
+        bottom: -20px;
+        padding-bottom: 80px;
+    }
+
+    .sample-slider .swiper-button-prev {
+        left: 100px;
+    }
+
+    .sample-slider .swiper-button-next {
+        right: 100px;
+    }
+
+    #form {
+        padding: 0;
+    }
+
+    #form .form-wrapper .form-header h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    #form .form-wrapper .form-header p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #form form {
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: 100%;
+        align-items: center;
+    }
+
+    #form form {
+        width: 100%;
+        margin: auto;
+        margin-right: 50px;
+    }
+
+    #newsletter {
+        padding: 0;
+    }
+
+    #newsletter .newsletter-header h2 {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    #newsletter .newsletter-header h2 span {
+        font-size: 30px;
+    }
+
+    #newsletter .newsletter-header p {
+        font-size: 12px;
+        width: 100%;
+        padding: 0 10px;
+        padding-bottom: 30px;
+    }    
+
+    #newsletter .newsletter-form form {
+        flex-direction: column;
+        gap: s;
+    }
+
+    #newsletter .newsletter-form input.news-btn {
+        margin: 15px 0;
+    }
+
+    #popular .menu-head h2.testimonial {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .slider {
+        margin: 0px;
+        margin: auto;
+        width: 100%;
+    }
+
+    #slider .slider-img p {
+        width: 100px;
+        margin: auto;
+        text-align: center;
+    }
+
+    #info .info-map iframe {
+        width: 300px;
+        padding-left: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .foot-info {
+        width: 75%;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    footer .foot-links h1 {
+        padding: 16px;
+        text-align: center;
+    }
+
+    footer .foot-links .links {
+        flex-direction: row;
+        padding: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #cea135;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar-logo img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s ease-in;
+}
+
+.navlink a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.2s;
+}
+
+.navlink a:hover {
+    border-bottom: 2px solid #cea135;
+}
+
+.navlink a:active {
+    letter-spacing: 1px;
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.5);
+}
+
+.float-btn a {
+    position: fixed;
+    /* z-index: 999; */
+    background-color:  hsl(29, 92%, 52%);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.3);
+    bottom: 20px;
+    left: 20px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.float-btn a:hover {
+    background-color: transparent;
+    border: 2px solid hsl(29, 92%, 52%);
+    color: #fff;
+    transform: translateX(10px);
+}
+
+.float-btn a:active {
+    box-shadow: 8px 0 16px 0 rgba(0, 0, 0, 0.5);
+}

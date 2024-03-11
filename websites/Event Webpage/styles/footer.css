@@ -1,0 +1,153 @@
+.footer-wrapper .footer-form {
+    background-image: url(../images/headway-F2KRf_QfCqw-unsplash.jpg);
+    background-repeat: none;
+    background-size: cover;
+    /* filter: brightness(50%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper .footer-form .form-txt {
+    padding: 50px 30px 20px;
+    font-family: sans-serif;
+    font-size: 24px;
+    width: 50%;
+    color: #ffffff;
+}
+
+.footer-wrapper .footer-form .form-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.footer-wrapper .footer-form .form-holder input {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+}
+
+.footer-wrapper .footer-form .form-holder input:focus {
+    border: none;
+    outline: none;
+}
+
+.footer-wrapper .footer-form .form-holder button {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #808080;
+    color: red;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+}
+
+.footer-wrapper .footer-form .form-holder button:active {
+    box-shadow: 0 8px  16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.footer-wrapper .footer-contact {
+    background-color: #131212;
+    padding: 20px;
+}
+
+/* .footer-wrapper .footer-contact .contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.footer-wrapper .footer-contact .contact-form-wrapper .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-wrapper .footer-contact .contact-form-wrapper .form-group input, textarea {
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    color: #ffffff;
+    width: 75%;
+    margin: 10px 20px 5px;
+    padding: 8px 10px 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ffffff;
+    transition: all 0.2s;
+}
+
+.footer-wrapper .footer-contact .contact-form-wrapper .form-group input:focus, textarea:focus {
+    outline: none;
+    border-bottom: 1px solid red;
+}
+
+.footer-wrapper .footer-contact .contact-form-wrapper .form-group textarea {
+    margin-top: 20px;
+    /* width: 100%; */
+    height: 50px;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+/* .footer-wrapper .footer-contact .contact-form-wrapper .form-group input {
+    color: #ffffff;
+} */
+
+.footer-wrapper .footer-contact .contact-form-wrapper .form-group input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.footer-wrapper .footer-contact .contact-form-wrapper .form-group textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.footer-wrapper .footer-contact .right-button {
+    width: 10%;
+    margin: auto;
+}
+
+.footer-wrapper .footer-contact .right-button button{
+    /* width: 25%;
+    margin: 10px 600px; */
+    padding: 10px 15px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+.footer-wrapper .footer-contact .right-button button:active {
+    background-color: red;
+    box-shadow: 0 8px  16px 0 rgba(0, 0, 0, 0.9);
+}
+
+.float-btn a {
+    position: fixed;
+    /* z-index: 999; */
+    background-color:  hsl(29, 92%, 52%);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.3);
+    bottom: 20px;
+    left: 20px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.float-btn a:hover {
+    background-color: transparent;
+    border: 2px solid hsl(29, 92%, 52%);
+    color: #000;
+    transform: translateX(10px);
+}
+
+.float-btn a:active {
+    box-shadow: 8px 0 16px 0 rgba(0, 0, 0, 0.5);
+}

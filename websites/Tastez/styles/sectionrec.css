@@ -1,0 +1,61 @@
+.section-rec-wrapper {
+    background-color: #090916;
+}
+
+.section-rec-wrapper > .section-rec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-rec-wrapper > .section-rec > .rec-img img{
+    width: 500px;
+    padding-top: 100px;
+}
+
+.section-rec-wrapper > .section-rec > .rec-txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #090916; */
+    margin-top: 10px;
+    color: #cea135;
+    padding-top: 20px;
+}
+
+.section-rec-wrapper > .section-rec > .rec-txt-wrapper > .rec-txt1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.section-rec-wrapper > .section-rec > .rec-txt-wrapper > .rec-txt2 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+    font-weight: 200;
+}
+
+.section-rec-wrapper > .section-rec > .rec-txt-wrapper > .rec-txt3 {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding: 0 32px;
+}
+
+.section-rec-wrapper > .section-rec > .rec-txt-wrapper > .rec-btn{
+    padding-bottom: 50px;
+}
+
+.section-rec-wrapper > .section-rec > .rec-txt-wrapper > .rec-btn > .btn {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 2px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    margin-top: 10px;
+}

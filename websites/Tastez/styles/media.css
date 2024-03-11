@@ -1,0 +1,40 @@
+@media (max-width: 770px) {
+    .navbar {
+        flex-direction: column;
+        /* height: 100%; */
+        margin: auto;
+        width: 100%;
+        padding: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-header {
+        padding: 300px 32px;
+    }
+
+    .abt-img {
+        flex-direction: column;
+    }
+
+    .comment-wrapper {
+        flex-direction: column;
+    }
+
+    .comment-wrapper .section-cmt-img img {
+        padding: 32px;
+    }
+
+    .section-tips-wrapper > .tip-img img {
+        width: 100%;
+        padding: 0 32px;
+    }
+
+    .section-tips-wrapper > .tip-img > .timg2 {
+        display: none;
+    }
+
+    /* .offer-txt-wrapper > .offer-img {
+        flex-direction: column;
+    } */
+}

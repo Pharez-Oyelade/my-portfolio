@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food order Website</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-queries/md-media.css">
+    <link rel="stylesheet" href="styles/media-queries/sm-media.css">
+    <link rel="stylesheet" href="styles/product.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <script src="https://kit.fontawesome.com/4e52035f67.js"></script>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="images/logo.png" alt="logo" class="logo" width="50px"></a>
+
+        <!-- <div>
+            <ul id="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Get Menu</a></li>
+                <li><a href="#">Multipage</a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+                <a href="#"><img src="images/logo.png" alt="logo" class="logo" width="50px"></a>
+            </ul>
+        </div>
+        <i id="bar" class="fas fa-outdent"></i> -->
+        <!-- <i class="fa-solid fa-burger" id="bar"></i> -->
+        <div>
+            <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="active">Products</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Pages</a></li>
+            <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <button class="header">Get Menu</button>
+           <!-- <i id="bar" class="fas fa-outdent"></i> -->
+           <i id="bar" class="fa-solid fa-burger"></i>
+        </div>
+
+        <button class="header">Get Menu</button>
+    </section> 
+    
+    <section id="prohead">
+        <div class="wrapper">
+            <h1>Salmon with Vegetables</h1>
+            <div class="pro-txt">
+                <p class="active">Home</p>
+                <p class="active">Products</p>
+                <p class="active">Nutrition</p>
+                <p>Salmon with Vegetables</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="prodetails">
+        <div class="pro-image">
+            <img src="images/food/dish_01-1.jpg" alt="Salmon with Vegetables" width="100%">
+        </div>
+
+        <div class="pro-details">
+            <div class="stars-wrapper">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star" class="clear" style="color: #a09999;"></i>
+                </div>
+                <p>(10 customer review)</p>
+            </div>
+            <h3>$12.49</h3>
+            <p>Immerse yourself in a culinary masterpiece featuring premium salmon, expertly grilled to perfection. Paired with a colorful array of crisps, garden-fresh vegetables, this dish is a celebration of taste and health. The salmon's buttery texture harmonizes with the natural sweetness of the vegetables, offering a delightful symphony for the discerning palate.</p>
+            <div class="cart">
+                <input type="number" value="1">
+                <button class="header">Add to cart</button>
+            </div>
+            <a href="#"><p><b>Category:</b> Nutrition</p></a>
+         
+        </div>
+    </section>
+
+    <section id="select">
+        <div class="buttons">
+            <button id="myDescription" class="custom_button active"><b>Description</b></button>
+            <button id="myInformation" class="custom_button"><b>Additional Information</b></button>
+            <button id="myReview" class="custom_button" onclick="showReview()"><b>Review</b></button>
+        </div>
+
+        <div id="myContent" class="select_content">
+           sit amet consectetur adipisicing elit. Autem ex doloremque necessitatibus cupiditate praesentium illo ratione expedita molestias, quis consectetur sint dignissimos reiciendis et assumenda at veritatis. Quo accusamus quibusdam distinctio nulla! Sint, rem, accusantium quod modi, excepturi quas qui beatae ab voluptatem porro illo voluptas. Sed, optio reprehenderit. Esse, rem repudiandae?
+        </div>
+    </section>
+
+   <footer>
+        <div class="foot-info">
+            <h2>Food Deli</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem numquam amet fugit dolores aperiam quisquam consequatur quod ut recusandae a.</p>
+            <div class="socials">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+        <div class="foot-links">
+            <h1>Explore</h1>
+            <div class="links">
+                <div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="#">Blog</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="#">Product</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="#">Clients</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <h1>Contact info</h1>
+            <div class="info-location">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="info-det">
+                    <h4>Our location:</h4>
+                    <p>Anderlesent 45, 01623, Nigeria</p>
+                </div>
+            </div>
+            <div class="info-location">
+                <i class="fa-solid fa-phone"></i>
+                <div class="info-det">
+                    <h4>Phones:</h4>
+                    <p>+234 813 774 2724</p>
+                    <p>+234 456 874 0987</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+
+
+    <script src="path-to-the-script/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
