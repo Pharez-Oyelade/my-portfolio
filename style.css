@@ -170,21 +170,22 @@ a.btn-clear:hover {
   --_textColorEnd: hsl(0 10% 10%);
 
   color: var(--_textColorStart);
-  background-color: var(--_surfaceColorStart);
+  background-color: #fff;
   padding: 16px 80px;
   z-index: 999;
   position: sticky;
   top: -12rem;
   left: 0;
   box-shadow: 0 0 0.75rem hsl(0 0% 0% / 0.3);
-  width: var(--_headerWidth, auto);
-  /* border-radius: 100vw; */
-  border-radius: var(--_headerBorder);
 
-  animation: stickyNav linear forwards;
+  /* border-radius: 100vw; */
 
   @supports (animation-timeline: view()) {
+    animation: stickyNav linear forwards;
+    background-color: var(--_surfaceColorStart);
+    width: var(--_headerWidth, auto);
     backdrop-filter: blur(0.15rem);
+    border-radius: var(--_headerBorder);
 
     animation-timeline: view();
     animation-range-start: calc(100vh + var(--_animationStartsAfter));
@@ -349,10 +350,12 @@ a.btn-clear:hover {
   padding-top: 5px;
   font-size: 1.125rem;
   /* color: #000; */
-  background: linear-gradient(to right, #4b4c4d 25%, #000 50%);
-  background-clip: text;
-  color: transparent;
-  display: inline-block;
+  @supports (linear-gradient()) {
+    background: linear-gradient(to right, #4b4c4d 25%, #000 50%);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
 }
 
 .dark-mode #hero .hero-wrapper .hero-info p {
