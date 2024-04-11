@@ -1,3 +1,22 @@
+// Script for navigation bar
+const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const nav = document.getElementById('navbar');
+
+if (bar) {
+    bar.addEventListener('click', () => {
+        nav.classList.add('active');
+    })
+}
+
+if (close) {
+    close.addEventListener('click', () => {
+        nav.classList.remove('active');
+    })
+}
+
+
+
 const formOpenBtn = document.querySelector("#form-open"),
 home = document.querySelector(".home"),
 formContainer = document.querySelector(".form_container"),
@@ -39,3 +58,6 @@ loginBtn.addEventListener("click", (e) => {
 // document.addEventListener("DOMContentLoaded", function () {
 //     document.getElementById
 // })
+
+// side nav on small display
+

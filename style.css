@@ -968,11 +968,13 @@ footer .footer-copy span {
     height: 100vh;
     right: -300px;
     width: 300px;
-    transition: 0.3s ease-in-out;
+    display: none;
+    transition: all 0.3s ease-in-out;
   }
 
   #header .header-mobile .nav.active {
     right: 0px;
+    display: initial;
   }
 
   #header .header-mobile .nav li {

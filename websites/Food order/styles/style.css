@@ -6,7 +6,7 @@
 }
 
 button.header {
-  background-color: red;
+  background-color: orange;
   padding: 10px 50px;
   color: #fff;
   border: none;
@@ -60,68 +60,6 @@ button.clear {
   border-bottom: 2px solid #8ec137;
   color: #8ec137;
 }
-
-/* hide and show dropdown  */
-/* #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: -1500px;
-    height: 100vh;
-    width: 100%;
-    max-width: 1500px;
-    background-color: #141429;
-    padding: 80px 0 0 10px;
-    transition: 0.3s;
-}
-
-#navbar.active {
-    right: 0px;
-}
-
-#navbar li {
-    list-style: none;
-    padding: 10px 40px;
-    position: relative;
-    width: 1500px;
-}
-
-#navbar li a {
-    text-decoration: none;
-    width: 100%;
-    max-width: 1500px;
-    font-size: 15px;
-    font-weight: 300;
-    color: #fff;
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 10px 1200px 10px 10px;
-}
-
-#navbar li a.active {
-    background-color: #3cda3c;
-    width: 100%;
-}
-
-#close {
-    display: initial;
-    position: absolute;
-    top: 30px;
-    right: 80px;
-}
-
-#navbar a img {
-    position: absolute;
-    top: 20px;
-    left: 80px;
-}
-
-#header i {
-    cursor: pointer;
-} */
 
 /* header */
 #header {
@@ -177,7 +115,7 @@ button.clear {
 }
 
 button.normal {
-  background-color: red;
+  background-color: orange;
   padding: 15px 50px;
   color: #fff;
   border: none;
@@ -499,7 +437,7 @@ button.normal {
 }
 
 .swipe-img span {
-  color: red;
+  color: orange;
   font-weight: 600;
 }
 
@@ -591,7 +529,7 @@ button.normal {
 #form form input.input-btn {
   /* margin: auto;
    width: 100px; */
-  background-color: red;
+  background-color: orange;
   color: #fff;
   font-size: 18px;
   padding: 20px 80px;
@@ -653,7 +591,7 @@ button.normal {
 
 #newsletter .newsletter-form input.news-btn {
   padding: 20px 50px;
-  background-color: red;
+  background-color: orange;
   color: #fff;
   font-weight: 500;
   /* position: absolute; */

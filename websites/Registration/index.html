@@ -1,107 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login/register on elapse</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Unicons -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-</head>
-<body>
-    
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4e52035f67.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header class="header" id="header_bg">
-        <nav class="nav">
-            <a href="#" class="nav_logo">Elapse</a>
+      <nav class="nav">
+        <a href="#" class="nav_logo">Elapse</a>
 
-            <ul class="nav_items">
-                <li class="item">
-                    <a href="#" class="nav_link">Home</a>
-                    <a href="#" class="nav_link">About</a>
-                    <a href="#" class="nav_link">Services</a>
-                    <a href="#" class="nav_link">Contact</a>
-                </li>
-            </ul>
+        <!-- <button id="open">open</button>
 
-            <button class="button" id="form-open">Login</button>
-        </nav>
+        <ul id="nav_sm">
+          <li class="sm-items">
+            <a href="#" class="nav_link">Home</a>
+            <a href="#" class="nav_link">About</a
+            ><a href="#" class="nav_link">Services</a
+            ><a href="#" class="nav_link">Contact</a>
+          </li>
+          <button id="close">close</button>
+        </ul>
+
+        <ul class="nav_items">
+          <li class="item">
+            <a href="#" class="nav_link">Home</a>
+            <a href="#" class="nav_link">About</a>
+            <a href="#" class="nav_link">Services</a>
+            <a href="#" class="nav_link">Contact</a>
+          </li>
+        </ul> -->
+
+        <ul id="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <a href="#" id="close"><i class="far fa-times"></i></a>
+        </ul>
+
+        <div id="mobile">
+          <i id="bar" class="fas fa-indent"></i>
+        </div>
+
+        <button class="button" id="form-open">Login</button>
+      </nav>
     </header>
 
     <section class="home">
+      <div class="intro_container">
+        <h1>Elapse</h1>
+        <span>TimePulse</span>
+        <p>A To-do List with a twist</p>
+      </div>
 
-        <div class="intro_container">
-            <h1>Elapse</h1>
-            <span>TimePulse</span>
-            <p>A To-do List with a twist</p>
-        </div>
-       
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
 
-        <div class="form_container">
-            <i class="uil uil-times form_close"></i>
+        <div class="form login_form">
+          <form action="#">
+            <h2>Login</h2>
 
-            <div class="form login_form">
-                <form action="#">
-                    <h2>Login</h2>
-
-                    <div class="input_box">
-                        <input type="email" placeholder="Enter your email" required>
-                        <i class="uil uil-envelope-alt email"></i>
-                    </div>
-                    <div class="input_box">
-                        <input type="password" placeholder="Enter your password" required>
-                        <i class="uil uil-lock password"></i>
-                        <i class="uil uil-eye-slash pw_hide"></i>
-                    </div>
-
-                    <div class="option_field">
-                        <span class="checkbox">
-                            <input type="checkbox" id="check">
-                            <label for="check">Remember me</label>
-                        </span>
-                        <a href="#" class="forgot_pw">Forgot password?</a>
-                    </div>
-
-                    <button class="button">Login Now</button>
-
-                    <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
-                </form>
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input
+                type="password"
+                placeholder="Enter your password"
+                required
+              />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
             </div>
 
-            <!-- signup form  -->
-            <div class="form signup_form">
-                <form action="#">
-                    <h2>Signup</h2>
-
-                    <div class="input_box">
-                        <input type="email" placeholder="Enter your email" required>
-                        <i class="uil uil-envelope-alt email"></i>
-                    </div>
-                    <div class="input_box">
-                        <input type="password" placeholder="Create password" required>
-                        <i class="uil uil-lock password"></i>
-                        <i class="uil uil-eye-slash pw_hide"></i>
-                    </div>
-                    <div class="input_box">
-                        <input type="password" placeholder="Confirm password" required>
-                        <i class="uil uil-lock password"></i>
-                        <i class="uil uil-eye-slash pw_hide"></i>
-                    </div>
-
-                    <button class="button">Signup Now</button>
-
-                    <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
-                </form>
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Remember me</label>
+              </span>
+              <a href="#" class="forgot_pw">Forgot password?</a>
             </div>
+
+            <button class="button">Login Now</button>
+
+            <div class="login_signup">
+              Don't have an account? <a href="#" id="signup">Signup</a>
+            </div>
+          </form>
         </div>
+
+        <!-- signup form  -->
+        <div class="form signup_form">
+          <form action="#">
+            <h2>Signup</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Create password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <button class="button">Signup Now</button>
+
+            <div class="login_signup">
+              Already have an account? <a href="#" id="login">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
 
     <section id="content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quia quo qui laboriosam! Aliquid commodi explicabo sapiente voluptatibus ratione praesentium quibusdam soluta provident harum rem nesciunt quis omnis nihil sed incidunt, recusandae est culpa aperiam expedita quas consequatur obcaecati aut consequuntur? Ex praesentium deleniti repellat maiores, quo provident fugit culpa suscipit, et libero minus atque aliquam nesciunt omnis amet repellendus beatae, natus consequatur numquam rerum quia qui exercitationem. Eveniet dignissimos deserunt ipsam repellat, quibusdam distinctio natus quod repellendus. Nesciunt quod quis ab odit saepe veniam, quisquam non neque accusamus, repudiandae alias, nostrum magni at minima quaerat eaque fugit possimus error.
+      Elapse TimePulse is a todo list application in development. With the aim
+      of integrating various features to the application. This is a demo signup
+      / login page for the application. The goal is to develop a different todo
+      app from majority of other todo applications, by making it more useful and
+      functional and featuring a lot more than just making lists. If there are
+      any suggestions on what could be added or what would be fun to see in a
+      todo list application, drop the comment on the contact page of the
+      portfolio (<a href="../../index.html#contact">here</a>)
     </section>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
