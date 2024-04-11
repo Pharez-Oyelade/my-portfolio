@@ -360,10 +360,6 @@ a.btn-clear:hover {
 
 .dark-mode #hero .hero-wrapper .hero-info p {
   color: var(--light-txt);
-  @supports (linear-gradient()) {
-    background: linear-gradient(to right, #9d9fa0 25%, #fff 50%);
-    background-clip: text;
-  }
 }
 
 #hero .hero-wrapper .hero-image {
