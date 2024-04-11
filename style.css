@@ -349,7 +349,7 @@ a.btn-clear:hover {
   margin: 0;
   padding-top: 5px;
   font-size: 1.125rem;
-  /* color: #000; */
+  color: #000;
   @supports (linear-gradient()) {
     background: linear-gradient(to right, #4b4c4d 25%, #000 50%);
     background-clip: text;
@@ -359,9 +359,11 @@ a.btn-clear:hover {
 }
 
 .dark-mode #hero .hero-wrapper .hero-info p {
-  /* color: var(--light-txt); */
-  background: linear-gradient(to right, #9d9fa0 25%, #fff 50%);
-  background-clip: text;
+  color: var(--light-txt);
+  @supports (linear-gradient()) {
+    background: linear-gradient(to right, #9d9fa0 25%, #fff 50%);
+    background-clip: text;
+  }
 }
 
 #hero .hero-wrapper .hero-image {
