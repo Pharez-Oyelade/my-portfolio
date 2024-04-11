@@ -968,7 +968,8 @@ footer .footer-copy span {
     top: 0;
     padding: 40px 0;
     background-color: var(--dark-bg);
-    height: 100vh;
+    backdrop-filter: blur(1.5rem);
+    height: 100dvh;
     right: -300px;
     width: 300px;
     display: none;
