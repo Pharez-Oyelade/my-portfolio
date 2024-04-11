@@ -162,7 +162,7 @@ a.btn-clear:hover {
 }
 
 #header {
-  --_animationStartsAfter: 10vh;
+  --_animationStartsAfter: 8vh;
   --_animationDistance: 350px;
   --_surfaceColorEnd: hsl(0, 5%, 95% / 0.5);
   --_surfaceColorStart: hsl(0 50% 100%);
