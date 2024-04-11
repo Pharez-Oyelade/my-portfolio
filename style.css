@@ -178,8 +178,6 @@ a.btn-clear:hover {
   left: 0;
   box-shadow: 0 0 0.75rem hsl(0 0% 0% / 0.3);
 
-  /* border-radius: 100vw; */
-
   @supports (animation-timeline: view()) {
     animation: stickyNav linear forwards;
     background-color: var(--_surfaceColorStart);
@@ -390,7 +388,7 @@ a.btn-clear:hover {
 
 .dark-mode #hero .hero-wrapper .hero-image::before {
   background: var(--dark-orange);
-  border-color: var(--light-txt);
+  border-color: var(--black-bg);
 }
 
 #hero .hero-wrapper .hero-image:hover::before {
@@ -635,6 +633,10 @@ a.btn-clear:hover {
 }
 
 .dark-mode .swiper-slide h3 {
+  color: #fff;
+}
+
+.dark-mode .swiper-slide p {
   color: #fff;
 }
 
