@@ -1,0 +1,100 @@
+#slider {
+  padding: 40px 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  padding: 10px 40px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.swiper-slide a {
+  text-decoration: none;
+}
+
+.swiper-slide h3 {
+  color: #000;
+}
+
+/* .swiper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.swipe-img img {
+  display: block;
+  height: 100%;
+  width: 85%;
+  margin: auto;
+  /* object-fit: cover; */
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+/* .swipe-img img:hover {
+  width: 60%;
+} */
+
+.swipe-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.swipe-overlay {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 85%;
+  margin: auto;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.swipe-img:hover .swipe-overlay {
+  opacity: 1;
+}
+
+.swipe-img h4 {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.swipe-img p {
+  font-size: 14px;
+  width: 85%;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: auto;
+  color: #fff;
+  font-family: cursive;
+}
+
+.swipe-img button {
+  margin-bottom: 5px;
+}
+
+.swipe-img span {
+  color: red;
+  font-weight: 600;
+}
+
+.sample-slider {
+  margin: 0;
+}

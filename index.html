@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form.css">
     <link rel="icon" type="image/png" sizes="32x32" href="images/icon.png">
+    <link rel="stylesheet" href="portfolio.css">
 
     <!-- font-awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,6 +21,13 @@
     <script src="https://kit.fontawesome.com/4e52035f67.js"></script>
     <!-- aos  -->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+     <!-- swiper  -->
+     <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     
 </head>
 <body>
@@ -111,14 +119,16 @@
                 <h2>Projects</h2>
            </div>
     
-           <div class="portfolio-wrapper">
-                <div class="portfolio-item-wrapper">
-                    <div class="portfolio-item" data-aos="zoom-in-up" data-aos-duration="1500">
+           <!-- <div class="swiper sample-slider portfolio-wrapper">
+
+                <div class="swiper-wrapper portfolio-item-wrapper">
+                    <div class="swiper-slide portfolio-item">
                         <div class="image-container">
                             <img src="images/portfolio/port_tastez.jpg" alt="project 1 - restaurant landing page">
     
                             <div class="image-overlay">
                                 <a href="websites/Tastez/index.html" class="view-button">View</a>
+                                
                             </div>
                         </div>
                         <div class="short-des">
@@ -132,7 +142,7 @@
                             <a href="websites/Tastez/index.html" class="square"><i class="fa-regular fa-paper-plane"></i></a>
                         </div>
                     </div>
-                    <div class="portfolio-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <div class="swiper-slide portfolio-item">
                         <div class="image-container">
                             <img src="images/portfolio/port_food.jpg" alt="project 1 - restaurant landing page">
     
@@ -148,10 +158,10 @@
                                 <p>CSS</p>
                                 <p>JavaScript</p>
                             </div>
-                            <a href="websites/Food order/index.html" class="square"><i class="fa-regular fa-paper-plane"></i></a>
+                            <a href="https://react-food-deli.pages.dev/" class="square"><i class="fa-regular fa-paper-plane"></i></a>
                         </div>
                     </div>
-                    <div class="portfolio-item" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <div class="swiper-slide portfolio-item">
                         <div class="image-container">
                             <img src="images/portfolio/port_event.jpg" alt="project 1 - restaurant landing page">
     
@@ -169,7 +179,7 @@
                             <a href="websites/Event Webpage/" class="square"><i class="fa-regular fa-paper-plane"></i></a>
                         </div>
                     </div>
-                    <div class="portfolio-item" data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div class="swiper-slide portfolio-item">
                         <div class="image-container">
                             <img src="images/portfolio/port_go.jpg" alt="project 1 - restaurant landing page">
     
@@ -189,8 +199,88 @@
                         </div>
                     </div>
                 </div>
-           </div>
+
+           </div> -->
+        
+           <section id="slider">
+            <div class="swiper sample-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="swipe-img" onmouseover="addOverlay()">
+                                <img src="images/portfolio/port_tastez.jpg" alt="project 1 - restaurant landing page" alt="Salad with Mozarella">
+    
+                                <div class="swipe-overlay" >
+                                    <h4>Restaurant landing page</h4>
+                                    <p>One of my earlier projects, I devoloped a dynamic landing page for a restaurant called "Tastez". This project features various animations adding to the visual appeal the site offers.</p>
+                                </div>
+                            </div>
+                            <h3>Restaurant Landing Page</h3>
+                        </a>
+                        
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="swipe-img" onmouseover="addOverlay()">
+                                <img src="images/portfolio/Food Order Website - Google Chrome 4_10_2024 10_20_40 PM.png" alt="project 1 - restaurant landing page" alt="Salad with Mozarella">
+    
+                                <div class="swipe-overlay" >
+                                    <h4>Restaurant landing page</h4>
+                                    <p>One of my earlier projects, I devoloped a dynamic landing page for a restaurant called "Tastez". This project features various animations adding to the visual appeal the site offers.</p>
+                                </div>
+                            </div>
+                            <h3>Restaurant Landing Page</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="swipe-img" onmouseover="addOverlay()">
+                                <img src="images/portfolio/Food Order Website - Google Chrome 4_10_2024 10_28_51 PM.png" alt="project 1 - restaurant landing page" alt="Salad with Mozarella">
+    
+                                <div class="swipe-overlay" >
+                                    <h4>Restaurant landing page</h4>
+                                    <p>One of my earlier projects, I devoloped a dynamic landing page for a restaurant called "Tastez". This project features various animations adding to the visual appeal the site offers.</p>
+                                </div>
+                            </div>
+                            <h3>Restaurant Landing Page</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="swipe-img" onmouseover="addOverlay()">
+                                <img src="images/portfolio/port_tastez.jpg" alt="project 1 - restaurant landing page" alt="Salad with Mozarella">
+    
+                                <div class="swipe-overlay" >
+                                    <h4>Restaurant landing page</h4>
+                                    <p>One of my earlier projects, I devoloped a dynamic landing page for a restaurant called "Tastez". This project features various animations adding to the visual appeal the site offers.</p>
+                                </div>
+                            </div>
+                            <h3>Restaurant Landing Page</h3>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                            <div class="swipe-img" onmouseover="addOverlay()">
+                                <img src="images/portfolio/port_tastez.jpg" alt="project 1 - restaurant landing page" alt="Salad with Mozarella">
+    
+                                <div class="swipe-overlay" >
+                                    <h4>Restaurant landing page</h4>
+                                    <p>One of my earlier projects, I devoloped a dynamic landing page for a restaurant called "Tastez". This project features various animations adding to the visual appeal the site offers.</p>
+                                </div>
+                            </div>
+                            <h3>Restaurant Landing Page</h3>
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+    
+            </div>
         </section>
+        </section>
+
+       
     
         <section id="contact">
             <div class="contact-header">
@@ -239,6 +329,8 @@
 
     <script src="script.js"></script>
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
