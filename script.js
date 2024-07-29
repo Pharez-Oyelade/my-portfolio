@@ -54,6 +54,7 @@ if (bar) {
     bar.addEventListener("click", () => {
         nav.classList.add('active');
         bar.style.display='none'
+        // document.body.style.overflow = 'hidden';
     })
 }
 // if close button is pressed

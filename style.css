@@ -13,7 +13,6 @@ html {
   box-sizing: border-box;
   font-size: 100%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 *,
@@ -964,15 +963,17 @@ footer .footer-copy span {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+
+    overflow-y: auto;
     position: fixed;
     top: 0;
     padding: 40px 0;
     background-color: var(--dark-bg);
     backdrop-filter: blur(1.5rem);
-    height: 100dvh;
+    height: 100vh;
     right: -300px;
     width: 300px;
-    display: none;
+
     transition: all 0.3s ease-in-out;
   }
 
