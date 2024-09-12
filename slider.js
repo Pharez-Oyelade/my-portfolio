@@ -27,7 +27,7 @@ const swiper = new Swiper('.swiper', {
     // },
 
     breakpoints: {
-        820: {
+        1200: {
             slidesPerView: 3,
         },
         477: {
@@ -45,14 +45,14 @@ const swiper = new Swiper('.swiper', {
     ]
 });
 
-const slider = new Swiper('.slider', {
-    autoplay: {
-        delay: 5000,
-    },
-    slidesPerView: 1,
-    direction: 'horizontal',
-    loop: true,
-});
+// const slider = new Swiper('.slider', {
+//     autoplay: {
+//         delay: 5000,
+//     },
+//     slidesPerView: 1,
+//     direction: 'horizontal',
+//     loop: true,
+// });
 
 
 

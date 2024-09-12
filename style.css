@@ -282,6 +282,10 @@ a.btn-clear:hover {
   display: none;
 }
 
+#header button.mobile {
+  display: none;
+}
+
 #hero {
   margin: 0;
   position: relative;
@@ -582,8 +586,21 @@ hr {
   width: 95%;
 }
 
+.experience .experience-grid-wrapper {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .experience .experience-grid-wrapper .experience-grid {
   width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .experience .experience-grid-wrapper .experience-grid h2 {
@@ -594,30 +611,6 @@ hr {
 .dark-mode #about .experience {
   color: var(--light-txt);
 }
-
-/* .experience-grid-1 {
-  grid-area: t1-alias;
-}
-
-.experience-grid-2 {
-  grid-area: t2-alias;
-}
-
-.experience-grid-3 {
-  grid-area: t3-alias;
-}
-
-.experience-grid-4 {
-  grid-area: t4-alias;
-}
-
-.experience-grid-5 {
-  grid-area: t5-alias;
-}
-
-.experience-grid-6 {
-  grid-area: t6-alias;
-} */
 
 #portfolio {
   /* position: relative; */
@@ -666,15 +659,6 @@ hr {
   align-items: center;
   padding-bottom: 32px;
 }
-
-/* #portfolio .portfolio-wrapper .portfolio-item-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 0 16px;
-  column-gap: 100px;
-} */
 
 #portfolio .portfolio-wrapper .portfolio-item-wrapper .portfolio-item {
   width: 35%;
@@ -1035,9 +1019,10 @@ footer .footer-copy span {
     overflow-y: auto;
     position: fixed;
     top: 0;
+    bottom: 0;
     padding: 40px 0;
     background-color: var(--dark-bg);
-    backdrop-filter: blur(1.5rem);
+    backdrop-filter: blur(10px);
     height: 100vh;
     right: -300px;
     width: 300px;
@@ -1165,5 +1150,32 @@ footer .footer-copy span {
 
   #portfolio .portfolio-wrapper .portfolio-item-wrapper {
     margin: 0 8px;
+  }
+
+  #about .experience {
+    padding: 20px;
+  }
+
+  #about .experience .experience-grid-wrapper {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    gap: 2px;
+    row-gap: 20px;
+    align-items: center;
+  }
+
+  hr {
+    width: 95%;
+  }
+
+  .experience .experience-grid-wrapper .experience-grid {
+    width: 45%;
+    margin: auto;
+  }
+
+  .experience .experience-grid-wrapper .experience-grid h2 {
+    font-size: 24px;
+    margin: 0;
   }
 }
