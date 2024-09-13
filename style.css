@@ -1179,4 +1179,8 @@ footer .footer-copy span {
     font-size: 24px;
     margin: 0;
   }
+
+  #header button.mobile {
+    display: block;
+  }
 }
