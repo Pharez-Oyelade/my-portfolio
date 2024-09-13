@@ -511,6 +511,7 @@ a.btn-clear:hover {
 
 #about .about-info img {
   width: 40%;
+  border-radius: 50px;
 }
 
 #about .about-info .about-txt {

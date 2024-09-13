@@ -123,11 +123,12 @@
 
 .content-overlay div {
   position: absolute;
-  left: 20px;
-  top: 5px;
+  left: 50px;
+  top: 2px;
 
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -154,13 +155,6 @@
 }
 
 .swipe-img p {
-  /* font-size: 14px;
-  width: 85%;
-  line-height: 20px;
-  letter-spacing: 1px;
-  margin: auto;
-  color: #fff;
-  font-family: cursive; */
   padding: 20px;
   font-size: 14px;
   color: #aaa;
