@@ -1,0 +1,154 @@
+:root {
+  --orange: hsl(29, 92%, 52%);
+  --dark: hsl(0, 0%, 13%);
+  --dark-bg: hsla(0, 0%, 0%, 0.85);
+  --bg-2: hsl(0, 17%, 91%);
+  --black-bg: hsl(0, 0%, 10%);
+  --light-txt: hsl(0, 0%, 100%);
+  --dark-orange: hsl(29, 92%, 42%);
+  --bg-footer: hsl(0, 17%, 80%);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 17%, 91%);
+  color: black;
+}
+
+header {
+  color: #000;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.project-modal-content {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: left;
+  position: relative;
+}
+
+.project-modal-content h2 {
+  margin-top: 0;
+  color: hsl(29, 92%, 52%);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: hsl(29, 92%, 52%);
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.modal-buttons a {
+  text-decoration: none;
+  background-color: var(--orange);
+  padding: 10px 20px;
+  border: 2px solid var(--orange);
+  border-radius: 5px;
+  color: var(--light-txt);
+  font-size: 0.9rem;
+  transition: all 0.3s ease-out;
+}
+
+.modal-buttons a:hover {
+  background-color: transparent;
+  color: var(--dark);
+}
+
+/* Media query for small displays (max-width: 600px) */
+@media (max-width: 600px) {
+  body {
+    padding: 10px; /* Adjust body padding for smaller screens */
+  }
+
+  header {
+    font-size: 1.5rem; /* Increase header font size for better readability */
+  }
+
+  .projects {
+    padding: 10px; /* Reduce padding for the projects section */
+    gap: 10px; /* Reduce gap between project cards */
+  }
+
+  .project-card {
+    padding: 10px; /* Reduce padding inside project cards */
+    font-size: 0.9rem; /* Adjust font size for project cards */
+  }
+
+  .project-modal-content {
+    width: 95%; /* Make modal content width responsive */
+    padding: 15px; /* Adjust padding for modal content */
+  }
+
+  .modal-buttons a {
+    padding: 8px 15px; /* Adjust button padding for smaller screens */
+    font-size: 0.8rem; /* Adjust button font size */
+  }
+}

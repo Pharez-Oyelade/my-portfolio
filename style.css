@@ -614,13 +614,33 @@ hr {
 }
 
 #portfolio {
-  /* position: relative; */
+  position: relative;
   background-color: #fff;
+}
+
+#portfolio .project-link {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+
+#portfolio .project-link a {
+  text-decoration: underline;
+  color: #000;
+  font-size: 1.09rem;
 }
 
 .dark-mode #portfolio {
   background-color: var(--black-bg);
 }
+
+/* #portfolio .portfolio-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0 40px;
+} */
 
 #portfolio .portfolio-header h2 {
   text-align: center;

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharez Oyelade - Frontend Portfolio - Projects</title>
+
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="projects.css" />
+  </head>
+  <body>
+    <!-- from index -->
+    <section id="header">
+      <div class="header">
+        <div class="header-name">Pharez</div>
+        <div class="header-nav">
+          <ul>
+            <li><a href="../index.html" class="custom_nav">Home</a></li>
+            <li><a href="../index.html#about" class="custom_nav">About</a></li>
+            <li>
+              <a href="../index.html#portfolio" class="custom_nav">Portfolio</a>
+            </li>
+            <li>
+              <a href="../index.html#contact" class="custom_nav">Contact</a>
+            </li>
+            <button class="mode" id="toggleButton" onclick="toggleMode()">
+              <i class="uil uil-moon" id="modeIcon"></i>
+            </button>
+          </ul>
+        </div>
+
+        <button class="mode mobile" id="toggleButton" onclick="toggleMode()">
+          <i class="uil uil-moon" id="modeIcon"></i>
+        </button>
+      </div>
+    </section>
+
+    <header>
+      <h1>My Projects</h1>
+    </header>
+
+    <section class="projects" id="projectList"></section>
+
+    <!-- modal -->
+    <div class="project-modal" id="projectModal">
+      <div class="project-modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <h2 id="modalTitle">Project Title</h2>
+        <p id="modalDescription">Project Description</p>
+        <p>
+          <strong>Technologies Used:</strong>
+          <span id="modalTech">Tech stack</span>
+        </p>
+        <div class="modal-buttons" id="buttons">
+          <a id="sourceBtn">Source</a>
+          <a id="viewBtn">View</a>
+        </div>
+      </div>
+    </div>
+    <script src="projects.js"></script>
+  </body>
+</html>
